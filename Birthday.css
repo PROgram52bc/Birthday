@@ -1,0 +1,16 @@
+body {
+	background-color: lightblue;
+}
+h1 {
+	font-family: Fantasy, Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
+}
+p {
+	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
+	color:black;
+}
+p::first-letter {
+	font-size:xx-large;
+	color:RGB(220,150,150);} /* slightly darker pink */
+p > strong {
+	font-size: larger;
+}
