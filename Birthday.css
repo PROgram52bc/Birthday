@@ -1,16 +1,43 @@
-body {
+body, html{
 	background-color: lightblue;
+	margin:0;
+	height: 100%;
 }
-h1 {
-	font-family: Fantasy, Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
-}
-p {
+h1,h2,p {
+	margin-top: 0px;
 	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
 	color:black;
 }
 p::first-letter {
 	font-size:xx-large;
 	color:RGB(220,150,150);} /* slightly darker pink */
-p > strong {
-	font-size: larger;
+	
+.page {
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#page1 {
+	background-image: url("images/cloud.jpg");
+}
+#page2 {
+	background-image: url("images/dandelion.jpg");
+}
+#page3 {
+	
+	background-image: url("images/dawn.jpg");
+}
+#page4 {
+	
+	background-image: url("images/rain.jpg");
+}
+#page5 {
+	
+	background-image: url("images/river.jpg");
+}
+#page6 {
+	
+	background-image: url("images/snow.jpg");
 }
