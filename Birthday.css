@@ -4,6 +4,16 @@ body, html{
 	margin:0;
 	height: 100%;
 }
+#hideall {
+	background-color: black;
+    height: 100%;
+	width: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+}
+
 h1,h2,p {
 	margin-top: 0px;
 	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
