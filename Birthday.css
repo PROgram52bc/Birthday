@@ -15,6 +15,7 @@ h1,h2,p {
 h1,h2 {
 	color: lightblue;
 	text-shadow: 0px 0px 5px gold;
+	animation: blinkShadow 5s ease 0s infinite;
 }
 
 .page {
@@ -73,9 +74,6 @@ h1,h2 {
 	animation-fill-mode: both;
 }
 
-.banner {
-	box-shadow: 10px 10px 2px -5px gray;
-}
 
 #horizontalBanner {
 	display: none;
